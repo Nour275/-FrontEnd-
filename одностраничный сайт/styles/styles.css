@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
 }
-
+/* 1/6 */
 /* Базовые стили для header */
 .header {
     position: relative;
@@ -21,7 +21,6 @@ body {
     overflow: hidden;
 }
 
-/* Логотип */
 .logo {
     position: absolute;
     
@@ -31,11 +30,11 @@ body {
     left: 64px;
     z-index: 10;
 }
-/* Заголовок страницы */
+
 .header__title {
     position: absolute;
     top: 30%;
-    left: 64px; /* Смещение вправо */
+    left: 64px; 
     font-size: 36px;
     font-weight: bold;
     color: #000000; /* Черный текст */
@@ -45,7 +44,7 @@ body {
     height: 96px;
     width: 730px;
     font-size: 102px;
-    font-weight: 600; /* Вертикальное центрирование */
+    font-weight: 600; 
 }
 
 /* Подзаголовок страницы */
@@ -70,7 +69,7 @@ body {
     left: 295px;
     padding: 10px 20px;
     font-size: 18px;
-    color: #2086ed; /* Синий цвет для ссылки */
+    color: #2086ed; 
     text-decoration: none;
     border-radius: 5px;
     z-index: 3;
@@ -108,7 +107,6 @@ body {
 }
 @media (max-width: 768px) {
     .logo {
-        /* Убедитесь, что логотип на переднем плане */
         z-index: 20;
     }
 
@@ -187,12 +185,12 @@ body {
     margin: 30px 0 0;
 }
 
-/* Акцентный элемент */
+
 .two-columns__span-accent {
     font-weight: 600;
     color:#000000;
     height: 34px;
-    font-size: 24px; /* Синий цвет для выделения */
+    font-size: 24px; 
 }
 /* Стили для блока digits */
 .digits {
@@ -282,7 +280,7 @@ body {
 }
 @media (max-width: 768px) {
     .table__cell {
-        width: 100%; /* Ячейки будут занимать всю ширину */
+        width: 100%; 
         margin-bottom: 20px;
     }
     
